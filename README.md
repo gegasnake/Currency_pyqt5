@@ -30,44 +30,46 @@ This project is a Currency Converter application built using PyQt6 for the graph
 4. **Run the application**
    python main.py
 
-Login:
+## Usage
 
-  Use the credentials:
-  Username: admin
-  Password: admin
-  Click the Login button to access the currency converter.
+### Login
 
-Currency Conversion:
+1. Use the credentials:
+   - **Username:** `admin`
+   - **Password:** `admin`
+2. Click the **Login** button to access the currency converter.
 
-  Select the "From Currency" and "To Currency" from the dropdown menus.
-  Enter the amount you want to convert.
-  Click the Convert button to see the result.
-  Clear Fields:
+### Currency Conversion
 
-  Click the Clear button to reset the input fields and selection.
-Logout:
+1. Select the "From Currency" and "To Currency" from the dropdown menus.
+2. Enter the amount you want to convert.
+3. Click the **Convert** button to see the result.
 
-  Click the Logout button to return to the login page.
+### Clear Fields
 
+- Click the **Clear** button to reset the input fields and selection.
 
-Project Structure
-  The project consists of the following main components:
+### Logout
 
-  main.py: The main Python script for the application.
-  login.ui: UI file for the login window.
-  currency_converter.ui: UI file for the currency converter window.
-  background.jpg: Background image used in the currency converter window.
-  requirements.txt: File listing the project dependencies.
-  dist/: Directory containing the standalone executable after building with PyInstaller.
+- Click the **Logout** button to return to the login page.
 
+## Project Structure
 
-Code Explanation
-  file: main.py
-  LoginWindow Class: Handles user authentication and navigation to the currency converter.
-  CurrencyConverterWindow Class: Manages currency conversion and UI interactions.
+The project consists of the following main components:
 
+- `main.py`: The main Python script for the application.
+- `login.ui`: UI file for the login window.
+- `currency_converter.ui`: UI file for the currency converter window.
+- `background.jpg`: Background image used in the currency converter window.
+- `requirements.txt`: File listing the project dependencies.
+- `dist/`: Directory containing the standalone executable after building with PyInstaller.
 
+## Code Explanation
 
+### `main.py`
+
+- **`LoginWindow` Class:** Handles user authentication and navigation to the currency converter.
+- **`CurrencyConverterWindow` Class:** Manages currency conversion and UI interactions.
 
 
 
