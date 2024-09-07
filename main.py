@@ -1,6 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QWidget, QVBoxLayout
-from PyQt6.QtWidgets import QApplication, QMainWindow, QMessageBox, QComboBox, QLabel, QPushButton, QLineEdit
+from PyQt6.QtWidgets import QApplication, QMainWindow, QMessageBox
 from PyQt6 import uic
 from PyQt6.QtGui import QFont
 import warnings
